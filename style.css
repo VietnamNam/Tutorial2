@@ -28,30 +28,32 @@
     margin-top:7%;
 }
 
-.Arrows {
+#ArrowKey {
     position:absolute;
     width:25%;
     height:30px;
+    top:0px;
     right:-25%;
-    text-align:center;
     background-color:rgba(150,50,50,0.5);
 }
 
-#ArrowKey {
-    top:0px;
+#Arrow {
+    height:100%;
 }
 
 #SecArrowKey {
-    top:28px;
+    width:25%;
+    height:30px;
+    position:absolute;
+    right:-25%;
+    background-color:rgba(150,50,50,0.5);
+    top:30px;
 }
 
 Arrow2 {
     height:100%;
 }
 
-#Arrow {
-    height:100%;
-}
 
 /*---------------------BACKGROUND BOIII---------------------*/
 
