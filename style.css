@@ -1,0 +1,66 @@
+#ControlPanel {
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:15vw;
+    left:-15vw;
+    transition:left 2s;
+}
+
+#ImgBox {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    background-color:rgba(150,50,50,0.5);
+}
+
+.BackgroundThumbs {
+    width:90%;
+    height:auto;
+    margin:10px 0px 0px 0px;
+}
+
+#Img3 {
+    margin-bottom:5%;
+}
+
+#Img1 {
+    margin-top:7%;
+}
+
+.Arrows {
+    position:absolute;
+    width:25%;
+    height:30px;
+    right:-25%;
+    text-align:center;
+    background-color:rgba(150,50,50,0.5);
+}
+
+#ArrowKey {
+    top:0px;
+}
+
+#SecArrowKey {
+    top:28px;
+}
+
+Arrow2 {
+    height:100%;
+}
+
+#Arrow {
+    height:100%;
+}
+
+/*---------------------BACKGROUND BOIII---------------------*/
+
+#BackgroundImg {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+    transition:background-image 2s;
+}
